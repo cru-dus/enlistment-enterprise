@@ -1,0 +1,7 @@
+<dataset>
+	<subjects subject_id="MATH11" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="PHILO1" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="COM1" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="PHYSICS71" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="KAS1" prerequisite_subject_id="NONE"/>
+</dataset>

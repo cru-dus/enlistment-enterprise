@@ -1,0 +1,1 @@
+create table rooms (name varchar(25) primary key, capacity int not null);

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- StudentDAO.findByStudentPrereqTakenValidation -->
+<dataset>
+	<students student_number="1" />
+	<semester_enlistment student_number="1" semester="Y2014_1ST" />
+	<semester_enlistment student_number="1" semester="Y2014_2ND" />
+	<semester_enlistment student_number="1" semester="Y2015_1ST" />
+	<subjects subject_id="MATH11" prerequisite_subject_id="NONE"/>
+ 	<subjects subject_id="MATH14" prerequisite_subject_id="MATH11"/>
+	<subjects subject_id="PHILO1" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="COM1" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="PHYSICS71" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="KAS1" prerequisite_subject_id="NONE"/>
+	<rooms room_name="AVR1" capacity="20"/>
+	<rooms room_name="MATH105" capacity="20"/>
+	<rooms room_name="IP103" capacity="35"/>
+	<rooms room_name="AS113" capacity="35"/>
+	<sections section_id="MT14" schedule="WS H0830" subject_id="MATH14" room_name="MATH105"/>
+	<sections section_id="MHX123" schedule="MTH H0830" subject_id="MATH11" room_name="MATH105"/>
+	<sections section_id="TFX555" schedule="TF H1000" subject_id="PHILO1" room_name="AS113"/>
+	<sections section_id="MHW432" schedule="MTH H1300" subject_id="COM2" room_name="AVR1"/>
+	<sections section_id="TFZ321" schedule="TF H1430" subject_id="PHYSICS71" room_name="IP103"/>
+	<sections section_id="MHY987" schedule="MTH H1130" subject_id="KAS1" room_name="AVR1"/>
+	<semester_enlistment_sections student_number="1" semester="Y2014_1ST" section_id="MHX123"/>
+	<semester_enlistment_sections student_number="1" semester="Y2014_2ND" section_id="TFX555"/>
+	<semester_enlistment_sections student_number="1" semester="Y2014_2ND" section_id="MHW432"/>
+	<semester_enlistment_sections student_number="1" semester="Y2015_1ST" section_id="TFZ321"/>
+	<semester_enlistment_sections student_number="1" semester="Y2015_1ST" section_id="MHY987"/>
+	<semester_enlistment_sections student_number="1" semester="Y2015_1ST" section_id="MT14"/>
+</dataset>

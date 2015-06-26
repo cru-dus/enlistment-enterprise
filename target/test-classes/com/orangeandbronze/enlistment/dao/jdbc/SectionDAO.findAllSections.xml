@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- findAllSections -->
+<dataset>
+	<subjects subject_id="COM1" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="PHYSICS71" prerequisite_subject_id="NONE"/>
+	<subjects subject_id="KAS1" prerequisite_subject_id="NONE"/>
+	
+	<rooms room_name="IP103" capacity="20"/>
+	<rooms room_name="AVR1" capacity="20"/>
+	
+	<sections section_id="MHW432" schedule="MTH H1300" subject_id="COM1" room_name="AVR1"/>
+	<sections section_id="TFZ321" schedule="TF H1430" subject_id="PHYSICS71" room_name="IP103"/>
+	<sections section_id="MHY987" schedule="MTH H1130" subject_id="KAS1" room_name="AVR1"/>
+</dataset>

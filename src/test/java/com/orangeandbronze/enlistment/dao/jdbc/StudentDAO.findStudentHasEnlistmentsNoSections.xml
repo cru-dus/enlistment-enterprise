@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- findStudentHasEnlistementsNoSections -->
+<dataset>
+	<students student_number="1"/>
+	<semester_enlistment student_number="1" semester="Y2014_1ST"/>
+	<semester_enlistment student_number="1" semester="Y2014_2ND"/>
+	<semester_enlistment student_number="1" semester="Y2015_1ST"/>
+</dataset>
